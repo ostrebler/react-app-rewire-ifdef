@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Add ifdef-loader to a react-app-rewired config.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ostrebler/react-app-rewire-ifdef.git"
@@ -15,5 +12,8 @@
   "bugs": {
     "url": "https://github.com/ostrebler/react-app-rewire-ifdef/issues"
   },
-  "homepage": "https://github.com/ostrebler/react-app-rewire-ifdef#readme"
+  "homepage": "https://github.com/ostrebler/react-app-rewire-ifdef#readme",
+  "dependencies": {
+    "ifdef-loader": "^2.1.4"
+  }
 }
