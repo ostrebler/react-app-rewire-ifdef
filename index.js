@@ -1,8 +1,8 @@
-const { getBabelLoader, addWebpackModuleRule } = require('customize-cra')
+const { getBabelLoader } = require('customize-cra')
 
 module.exports = ({ "ifdef-env": autoEnv, ...options } = {}) => config => {
   const { test, include } = getBabelLoader(config)
-  return addWebpackModuleRule({
+  return config.module.rules.push({
     test,
     include,
     loader: 'ifdef-loader',
@@ -10,5 +10,6 @@ module.exports = ({ "ifdef-env": autoEnv, ...options } = {}) => config => {
       ...autoEnv ? process.env : {},
       ...options
     }
-  })(config)
+  })
+  return config
 }
