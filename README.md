@@ -22,7 +22,7 @@ module.exports = rewireIfdef({
 })
 ```
 
-And because I missed it so much, I added one option that _is not_ in `ifdef-loader` : `ifdef-env` which, when set to `true`, automatically loads all environment variables into the loader. For example :
+I added one option that _is not_ in `ifdef-loader` : `"ifdef-env"` which, when set to `true`, automatically loads all environment variables into the loader. For example :
 
 ```javascript
 const rewireIfdef = require('react-app-rewire-ifdef')
