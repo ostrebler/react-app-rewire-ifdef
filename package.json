@@ -1,6 +1,6 @@
 {
   "name": "react-app-rewire-ifdef",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Add ifdef-loader to a react-app-rewired config.",
   "main": "index.js",
   "repository": {
@@ -13,9 +13,9 @@
     "url": "https://github.com/ostrebler/react-app-rewire-ifdef/issues"
   },
   "homepage": "https://github.com/ostrebler/react-app-rewire-ifdef#readme",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "customize-cra": "^0.6.1",
     "ifdef-loader": "^2.1.4"
-  }
+  },
+  "devDependencies": {}
 }
