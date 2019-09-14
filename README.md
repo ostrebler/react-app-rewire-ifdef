@@ -1,4 +1,4 @@
-### react-app-rewire-ifdef
+# react-app-rewire-ifdef
 
 Adds [ifdef-loader](https://github.com/nippur72/ifdef-loader) to a react-app-rewired config, which allows JavaScript or TypeScript conditional compilation with preprocessed statements like `#if`, `#elif`, etc.
 
